@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: pink;
+}
+.card.over{
+    pointer-events: none;
+}
+
+.container {
+    width: 100vw;
+    height: 400px;
+    max-width: 600px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    grid-gap: 5px;
+    background-color: black;
+    margin-left: 450px;
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.playerX{
+    background: url('./png-clipart-tic-tac-toe-computer-icons-others-miscellaneous-angle.png') no-repeat center / 50% ;
+}
+.playerO{
+    background: url('הורדה.png') no-repeat center / 50%;
+}
+.restart{
+    background-color: purple;
+    visibility: visible;
+    width: 100px;
+    height: 100px;
+}
+.restart.hidden{
+    visibility: hidden;
+}
